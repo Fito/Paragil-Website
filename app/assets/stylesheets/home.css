@@ -1,0 +1,34 @@
+div#home-content {
+  width: 70%;
+  overflow: hidden;
+  margin: 0px auto;
+  padding: 50px 0px;
+}
+
+div#home-content div.column {
+  width: 31%;
+  overflow: hidden;
+  float: left;
+}
+
+div#home-content div.column.middle {
+  margin: 0% 3%;
+}
+
+div#home-content div#description p {
+  margin-bottom: 30px;
+  font-family: ArtifikaMedium;
+  font-size: 32px;
+  color: #555;
+  text-align: center;
+}
+
+div#home-content div.column h2 {
+  margin: 10px 0px;
+  font-family: ArtifikaMedium;
+  font-size: 28px;
+}
+
+div#home-content div.column p {
+  font-size: 18px;
+}

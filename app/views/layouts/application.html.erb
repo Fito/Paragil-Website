@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>WebSite</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+  <head>
+    <title>WebSite</title>
+    <%= stylesheet_link_tag    "application", :media => "all" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <div id="header-wrapper">
+      <div id="header">
+        <h1 id="main-title"><a href="/">ParÁgil</a></h1>
+      </div>
+    </div>
+    
+    <div id="content-wrapper">
+      <%= yield %>
+    </div>
+    
+    <div id="footer-wrapper">
+      <hr/>
+      <div id="footer">
+        <span>Contact Us: <a href="mailto:contact@paragil.com">contact@paragil.com</a></span>
+      </div>
+    </div>
+  </body>
 </html>
